@@ -1,0 +1,4 @@
+To find the difference between two files or scripts of code, use the format:
+diff file1 file2
+Example in this directory:
+diff example1 example2
