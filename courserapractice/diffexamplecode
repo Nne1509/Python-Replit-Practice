@@ -2,3 +2,9 @@ To find the difference between two files or scripts of code, use the format:
 diff file1 file2
 Example in this directory:
 diff example1 example2
+
+These are the results:
+<       result = re.search(r"^([\w .]*), ([\w .]*)$", name)
+>       result = re.search(r"^([\w .-]*), ([\w .-]*)$", name)
+
+The less than symbol "<" tells us that the first line was removed from the first file, and the greater than symbol tells us that the second line was added to the second file. In other words, the old line got replaced by the new one.
