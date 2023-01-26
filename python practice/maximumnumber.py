@@ -4,4 +4,4 @@ def max_num (list):
     if i > max:
       max = i
   return max
-print (max_num ([3,10,6, 8]))
+print (max_num ([3,10,6, 18]))
